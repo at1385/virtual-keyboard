@@ -10,10 +10,12 @@ const createVirtualKeyboardKey = (key) => {
 
   switch (key) {
     case 'Backspace':
-    case 'Caps Lock':
     case 'Enter':
     case '<span class="visually-hidden">Left </span>Shift':
       virtualKeyboardKey.className = 'virtual-keyboard__key virtual-keyboard__key--four-columns';
+      break;
+    case 'Caps Lock':
+      virtualKeyboardKey.className = 'virtual-keyboard__key virtual-keyboard__key--four-columns virtual-keyboard__key--off';
       break;
     case 'Tab':
     case 'Del':

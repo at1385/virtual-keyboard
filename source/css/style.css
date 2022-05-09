@@ -107,6 +107,8 @@ p {
 }
 
 .virtual-keyboard__key {
+  position: relative;
+
   height: 56px;
 
   font: inherit;
@@ -176,4 +178,25 @@ p {
 
 .virtual-keyboard__key--twelve-columns {
   grid-column: span 12;
+}
+
+.virtual-keyboard__key--off::after,
+.virtual-keyboard__key--on::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  right: 8px;
+
+  width: 5px;
+  height: 5px;
+
+  border-radius: 50%;
+}
+
+.virtual-keyboard__key--off::after {
+  background-color: var(--main-3xl);
+}
+
+.virtual-keyboard__key--on::after {
+  background-color: #00bf00;
 }
