@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src:
+    url("../fonts/arial-400.woff2") format("woff2"),
+    url("../fonts/arial-400.woff") format("woff");
+}
+
+:root {
+  --light-3xl: #ffffff;
+  --dark-s: #738080;
+  --dark-l: #3a424e;
+  --dark-2xl: #1c232e;
+}
+
+html {
+  box-sizing: border-box;
+
+  font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: var(--light-3xl);
+  line-height: 1;
+}
+
+a {
+  text-decoration: none;
+}
