@@ -1,3 +1,10 @@
+:root {
+  --light-3xl: #ffffff;
+  --dark-s: #738080;
+  --dark-l: #3a424e;
+  --dark-2xl: #1c232e;
+}
+
 html {
   box-sizing: border-box;
 }
