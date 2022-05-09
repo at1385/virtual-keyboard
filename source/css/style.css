@@ -9,10 +9,13 @@
 }
 
 :root {
-  --light-3xl: #ffffff;
-  --dark-s: #738080;
+  --main-xs: #fff0f0;
+  --main-s: #ffe9e9;
+  --main-l: #ffe3e2;
+  --main-xl: #f9c4d2;
+  --main-2xl: #b18597;
+  --main-3xl: #8e5b70;
   --dark-l: #3a424e;
-  --dark-2xl: #1c232e;
 }
 
 html {
