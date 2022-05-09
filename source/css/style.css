@@ -16,6 +16,9 @@
   --main-2xl: #b18597;
   --main-3xl: #8e5b70;
   --dark-l: #3a424e;
+
+  --max-desktop-width: 1024px;
+  --min-mobile-width: 320px;
 }
 
 html {
