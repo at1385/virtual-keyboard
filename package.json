@@ -1,0 +1,23 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "https://at1385.github.io/virtual-keyboard/",
+  "main": "main.js",
+  "scripts": {
+    "test": "eslint source/js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/at1385/virtual-keyboard.git"
+  },
+  "author": "Alexander Tikhonov @at1385",
+  "bugs": {
+    "url": "https://github.com/at1385/virtual-keyboard/issues"
+  },
+  "homepage": "https://github.com/at1385/virtual-keyboard#readme",
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
