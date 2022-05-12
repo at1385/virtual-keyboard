@@ -66,6 +66,10 @@ a {
   margin: 0 auto;
 }
 
+.hidden {
+  display: none;
+}
+
 h1 {
   margin: 0;
 
@@ -149,17 +153,20 @@ p {
   background-color: var(--main-s);
 }
 
-.virtual-keyboard__key:focus::before {
+.virtual-keyboard__key:focus::before,
+.virtual-keyboard__key--focus::before {
   outline: 2px dashed var(--main-2xl);
   outline-offset: 3px;
 }
 
-.virtual-keyboard__key:active {
+.virtual-keyboard__key:active,
+.virtual-keyboard__key--active {
   background: var(--main-s);
   transform: translate(0em, 0.75em);
 }
 
-.virtual-keyboard__key:active::before {
+.virtual-keyboard__key:active::before,
+.virtual-keyboard__key--active::before {
   box-shadow: 0 0 0 2px var(--main-2xl), 0 0 var(--main-l);
   transform: translate3d(0, 0, -1em);
 }
