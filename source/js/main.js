@@ -4,3 +4,4 @@ import './display-markup.js';
 import './keyboard-markup.js';
 import './real-keyboard-push.js';
 import './caps-lock.js';
+import './shift.js';
